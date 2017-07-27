@@ -23,10 +23,7 @@ int main(int argc, const char * argv[]) {
         printList(list);
         
         releasaList(list);
-        
-        deleteValue(list, 3);
-        
-        printList(list);
+
     }
     return 0;
 }
